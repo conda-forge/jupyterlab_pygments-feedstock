@@ -1,5 +1,5 @@
 {% set name = "jupyterlab_pygments" %}
-{% set version = "0.1.0" %}
+{% set version = "0.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 31deda75bd11b014190764c79f6199aa04ef2d4cf35c1c94270fc2e19c23a5c5
+  sha256: 19a0ccde7daddec638363cd3d60b63a4f6544c9181d65253317b2fb492a797b9
 
 build:
   number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
 
 requirements:
   host:
@@ -31,9 +31,9 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
-  summary: 'Pygments syntax coloring scheme making use of the JupyterLab CSS variables'
+  summary: Pygments syntax coloring scheme making use of the JupyterLab CSS variables
   description: |
-      The goal is to enable the use of JupyterLab's themes with pygments-generated HTML.
+    The goal is to enable the use of JupyterLab's themes with pygments-generated HTML.
   dev_url: https://github.com/JupyterLab/jupyterlab_pygments
 
 extra:
