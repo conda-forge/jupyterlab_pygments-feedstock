@@ -5,7 +5,7 @@ Home: http://github.com/JupyterLab/jupyterlab_pygments
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Pygments syntax coloring scheme making use of the JupyterLab CSS variables
 
