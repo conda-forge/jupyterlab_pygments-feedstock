@@ -19,7 +19,6 @@ requirements:
     - python >=3.7
     - pip
     - jupyter-packaging
-    - yarn
   run:
     - python >=3.7
     - pygments >=2.4.1,<3
