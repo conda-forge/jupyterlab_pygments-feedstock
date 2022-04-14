@@ -1,5 +1,5 @@
 {% set name = "jupyterlab_pygments" %}
-{% set version = "0.2.1" %}
+{% set version = "0.2.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 121da770930e348895f89d6bdfce7e7e6a8bb574162923f9c9ef5a20c61619c6
+  sha256: 7405d7fde60819d905a9fa8ce89e4cd830e318cdad22a0030f7a901da705585d
 
 build:
   number: 0
