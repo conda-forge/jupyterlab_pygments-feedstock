@@ -18,8 +18,8 @@ requirements:
   host:
     - python >=3.7
     - pip
-    - jupyter-packaging
-    - jupyterlab >=4,<5
+    - hatchling
+    - hatch-jupyter-builder
   run:
     - python >=3.7
     - pygments >=2.4.1,<3
